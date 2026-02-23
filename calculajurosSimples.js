@@ -6,4 +6,4 @@ function calculaJurosSinples(capital, taxa, tempo){
 }
 
 let conta1 = calculaJurosSinples(5000, 4, 6);
-console.log("o mntante é R$" + conta1);
+console.log("o mntante é R$" + conta1.toFixed(2));
